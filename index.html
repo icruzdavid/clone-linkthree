@@ -23,7 +23,12 @@
       border-radius: 50%; /* Torna a imagem circular */
       width: 100px; /* Largura da imagem */
       height: 100px; /* Altura da imagem */
-      margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+      margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    }
+    .menu-vertical .subtitle {
+      margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+      font-size: 1.2em; /* Tamanho da fonte do subtítulo */
+      color: #ccc; /* Cor do texto do subtítulo */
     }
     .menu-vertical ul {
       list-style-type: none; /* Remove os marcadores de lista */
@@ -43,6 +48,14 @@
     .menu-vertical a:hover {
       background: linear-gradient(135deg, #555, #666); /* Gradiente ao passar o mouse */
     }
+    footer {
+      background-color: #000; /* Fundo preto para o footer */
+      text-align: center; /* Centraliza o texto */
+      padding: 10px 0; /* Espaçamento interno */
+      margin-top: 20px; /* Espaçamento acima do footer */
+      font-size: 0.9em; /* Tamanho da fonte do footer */
+      color: #ccc; /* Cor do texto do footer */
+    }
   </style>
 </head>
 <body>
@@ -50,6 +63,8 @@
     <div class="menu-vertical">
       <!-- Adicionando a imagem com borda circular -->
       <img src="img/codd..jpg" alt="Imagem">
+      <!-- Adicionando o subtítulo abaixo da imagem -->
+      <div class="subtitle">@instagram.da.loja</div>
       <ul class="nav flex-column">
         <li class="nav-item">
           <a class="nav-link" href="#">Página Inicial</a>
@@ -66,6 +81,11 @@
       </ul>
     </div>
   </div>
+  
+  <!-- Adicionando o footer -->
+  <footer>
+    &copy; 2024 Todos os direitos reservados.
+  </footer>
 
   <!-- Adicionando Bootstrap JS (opcional) -->
   <script src="https://stackpath.herokuapp.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
