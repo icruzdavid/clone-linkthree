@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Vertical Responsivo com Fundo Preto</title>
+  <!-- Adicionando Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    html, body {
+      background-color: #000; /* Cor de fundo preta para toda a página */
+      color: #fff; /* Cor do texto padrão */
+      height: 100%; /* Garante que o fundo cubra toda a altura */
+      margin: 0; /* Remove margens padrão */
+    }
+    .menu-vertical {
+      background-color: #000; /* Cor de fundo preta */
+      padding: 20px; /* Espaçamento interno */
+      text-align: center; /* Centraliza a imagem */
+    }
+    .menu-vertical img {
+      border-radius: 50%; /* Torna a imagem circular */
+      width: 100px; /* Largura da imagem */
+      height: 100px; /* Altura da imagem */
+      margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    }
+    .menu-vertical ul {
+      list-style-type: none; /* Remove os marcadores de lista */
+      padding: 0;
+    }
+    .menu-vertical li {
+      margin-bottom: 10px; /* Espaçamento entre os itens */
+    }
+    .menu-vertical a {
+      display: block;
+      padding: 10px 15px;
+      background: linear-gradient(135deg, #333, #444); /* Gradiente das barras */
+      color: #fff; /* Cor do texto */
+      text-decoration: none; /* Remove sublinhado dos links */
+      transition: background 0.3s ease;
+    }
+    .menu-vertical a:hover {
+      background: linear-gradient(135deg, #555, #666); /* Gradiente ao passar o mouse */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="menu-vertical">
+      <!-- Adicionando a imagem com borda circular -->
+      <img src="img/codd..jpg" alt="Imagem Circular">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Adicionando Bootstrap JS (opcional) -->
+  <script src="https://stackpath.herokuapp.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
